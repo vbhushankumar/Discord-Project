@@ -157,3 +157,31 @@
   font-weight: 700;
   src: url(fonts/gg-sans/ggsans-Bold.ttf);
 }
+
+.cssanimation, .cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.hu_hu_ { animation: hu_hu_ infinite 2s ease-in-out }
+@keyframes hu_hu_ {
+  50% { transform: translateY(30px) }
+}
+
+.leFadeIn span { animation-name: leFadeIn }
+@keyframes leFadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.wipe {
+  width: 482px;
+  overflow: hidden;
+  margin: 0 auto;   
+  animation-name: wipe;
+}
+@keyframes wipe {
+  to { width: 0 }
+}
