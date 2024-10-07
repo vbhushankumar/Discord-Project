@@ -165,10 +165,7 @@
 
 .cssanimation span { display: inline-block }
 
-.hu_hu_ { animation: hu_hu_ infinite 2s ease-in-out }
-@keyframes hu_hu_ {
-  50% { transform: translateY(30px) }
-}
+
 
 .leFadeIn span { animation-name: leFadeIn }
 @keyframes leFadeIn {
